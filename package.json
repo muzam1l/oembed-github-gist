@@ -1,0 +1,40 @@
+{
+    "name": "oembed-github-gist",
+    "version": "1.0.0",
+    "description": "react-tiny-oembed sample plugin, dirty little hack to get github gist urls running without proxy server",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "npm run format && rollup -c",
+        "format": "prettier --write \"**/*.js\"",
+        "prepare": "npm run build",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/muzam1l/oembed-github-gist.git"
+    },
+    "files": [
+        "dist/**/*"
+    ],
+    "keywords": [
+        "react-tiny-oembed",
+        "oembed",
+        "provider",
+        "github",
+        "gist"
+    ],
+    "author": "muzam1l https://github.com/muzam1l",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/muzam1l/oembed-github-gist/issues"
+    },
+    "homepage": "https://github.com/muzam1l/oembed-github-gist#readme",
+    "devDependencies": {
+        "prettier": "^2.2.0",
+        "rollup": "^2.33.3",
+        "rollup-plugin-terser": "^7.0.2"
+    },
+    "peerDependencies": {
+        "react-tiny-oembed": "^1.0.0"
+    }
+}
